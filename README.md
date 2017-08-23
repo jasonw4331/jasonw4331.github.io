@@ -1,2 +1,2 @@
-# jasonwynn10.github.io
-### My Blog / Website!
+# https://jasonwynn10.github.io
+### My Github Website
