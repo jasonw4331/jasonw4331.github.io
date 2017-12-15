@@ -13,9 +13,9 @@
 	cursor:pointer;
 	color:#7243b5;
 	font-family:Verdana, serif;
-	font-size:19px;
-	font-weight:bold;
-	padding:15px 48px;
+	font-size: 140%;
+	font-weight: bold;
+	padding: 15px 48px;
 	text-decoration:none;
 	width:auto;
 	margin: 10px auto auto;
@@ -26,14 +26,17 @@
 	background-color:transparent;
 	color: #36393E;
 }
+.connecting-dots {
+	height:100%;
+	width:100%;
+	position:relative;
+	z-index:1;
+}
 #bground {
-    position:fixed;
-    padding:0;
-    margin:0;
+    position: fixed;
     text-align: center;
     top:0;
     left:0;
-
     width: 100%;
     height: 100%;
     background: linear-gradient(var(--degrees), #462f66, #9a36f9);
@@ -44,15 +47,15 @@
 	margin-left: 10px;
 	color: #36393E;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 100%;
 	margin-top: 0;
 }
 #fground {
 	text-align: center;
 	width: 100%;
 	height: 100%;
-	position:relative;
-	z-index:2;
+	position: relative;
+	z-index: 2;
 }
 .left-button {
 	background-color:#36393E;
@@ -63,7 +66,7 @@
 	display:inline-block;
 	color:#6343b5;
 	font-family:Verdana, serif;
-	font-size:19px;
+	font-size: 100%;
 	font-weight:bold;
 	padding:15px 48px;
 	text-decoration:none;
@@ -72,7 +75,7 @@
 }
 .feature p {
 	font-family: Verdana, arial, sans-serif;
-	font-size: 18px;
+	font-size: 100%;
 	margin-left: 10px;
 	width: 335px;
 	margin-top: 0;
@@ -89,14 +92,14 @@
 #premium-header {
 	font-family: xirod, arial, sans-serif;
 	text-align: center;
-	font-size: 50px;
+	font-size: 100%;
 	color: #36393E;
 	margin-left: 10px;
 	margin-bottom: 0;
 }
 #logo-text {
 	font-family: xirod, arial, sans-serif;
-	font-size: 90px;
+	font-size: 400%;
 	color: #36393E;
 	margin: auto;
 	width: 75%;
@@ -105,7 +108,7 @@
 }
 #motto-text {
 	font-family: Verdana, arial, sans-serif;
-	font-size: 40px;
+	font-size: 250%;
 	color: #36393E;
 	margin: auto;
 	width: 80%;
